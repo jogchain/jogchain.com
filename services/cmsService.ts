@@ -1,0 +1,1 @@
+// Fetches content from headless CMS (optional)
