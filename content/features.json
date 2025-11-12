@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Artificial Intelligence",
+        "description": "We design and integrate AI-driven solutions, from predictive analytics to intelligent automation.",
+        "icon": "FaBrain"
+    },
+    {
+        "title": "Web & Software Engineering",
+        "description": "High-performance, scalable software built with modern frameworks and solid engineering practices.",
+        "icon": "FaCode"
+    },
+    {
+        "title": "Data Science & Analytics",
+        "description": "Transforming data into actionable insights through visualization, modeling, and machine learning.",
+        "icon": "FaChartLine"
+    },
+    {
+        "title": "Cloud Infrastructure",
+        "description": "Deploying resilient, cost-efficient, and secure systems on AWS, Azure, and Google Cloud.",
+        "icon": "FaCloud"
+    }
+]
