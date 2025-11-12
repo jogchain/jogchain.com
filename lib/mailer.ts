@@ -1,0 +1,1 @@
+// # Email sending setup (e.g., Resend, Nodemailer)
