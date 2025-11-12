@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import { HeroSection } from "@/components/sections/HeroSection";
+import { FeatureSection } from "@/components/sections/FeaturesSection";
+import {Footer} from "@/components/layout/footer";
+import { TechStackSection } from "@/components/sections/TechStackSection";
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-zinc-50 font-sans text-zinc-900 dark:bg-black dark:text-zinc-50">
@@ -16,17 +19,9 @@ export default function Home() {
           priority
         />
 
-        {/* ====== Hero Section ====== */}
-        <h1 className="max-w-3xl text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
-          Building Intelligent Foundations for the Digital Future
-        </h1>
-        <p className="mt-6 max-w-2xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
-          Jog Chain Technology connects innovation, engineering, and AI to build
-          scalable software, machine learning solutions, and data-driven systems
-          that move the world forward.
-        </p>
+        <HeroSection/>
 
-        {/* ====== Call to Action Buttons ====== */}
+{/* ====== Call to Action Buttons ====== */}
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
           <Link
             href="/services"
@@ -45,31 +40,14 @@ export default function Home() {
         {/* ====== Visual Divider ====== */}
         <div className="my-20 h-px w-32 bg-gradient-to-r from-transparent via-zinc-400 to-transparent opacity-50" />
 
-        {/* ====== Tagline / Secondary Section ====== */}
-        <section className="flex flex-col items-center">
-          <h2 className="text-xl font-medium text-zinc-800 dark:text-zinc-200">
-            We specialize in:
-          </h2>
-          <ul className="mt-6 flex flex-wrap justify-center gap-4 text-zinc-600 dark:text-zinc-400">
-            <li className="rounded-full border border-zinc-300 px-4 py-2 text-sm dark:border-zinc-700">
-              Artificial Intelligence
-            </li>
-            <li className="rounded-full border border-zinc-300 px-4 py-2 text-sm dark:border-zinc-700">
-              Web & Software Engineering
-            </li>
-            <li className="rounded-full border border-zinc-300 px-4 py-2 text-sm dark:border-zinc-700">
-              Data Science & Analytics
-            </li>
-            <li className="rounded-full border border-zinc-300 px-4 py-2 text-sm dark:border-zinc-700">
-              Cloud Infrastructure
-            </li>
-          </ul>
-        </section>
+        <FeatureSection/>
 
+        {/* ====== Visual Divider ====== */}
+        <div className="my-20 h-px w-32 bg-gradient-to-r from-transparent via-zinc-400 to-transparent opacity-50" />
+
+        <TechStackSection/>
         {/* ====== Footer Note ====== */}
-        <footer className="mt-24 text-sm text-zinc-500 dark:text-zinc-600">
-          © {new Date().getFullYear()} Jog Chain Technology. All rights reserved.
-        </footer>
+        <Footer/>
       </main>
     </div>
   );
