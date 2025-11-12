@@ -8,7 +8,7 @@ export default function Home() {
         
         {/* ====== Company Logo ====== */}
         <Image
-          src="/jogchain head.png"
+          src="/images/jogchain head.png"
           alt="Jog Chain Technology Logo"
           width={100}
           height={100}
