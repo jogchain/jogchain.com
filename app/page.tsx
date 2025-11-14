@@ -2,9 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { HeroSection, FeatureSection, TechStackSection, TestimonialsSection, CTASection } from "@/components/sections";
 import { Footer } from "@/components/layout/footer";
+import { Navbar } from "@/components/layout/navbar";
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-zinc-50 font-sans text-zinc-900 dark:bg-black dark:text-zinc-50">
+      <Navbar/>
       <main className="flex w-full max-w-5xl flex-col items-center justify-center px-8 py-24 text-center sm:px-12 sm:py-32">
 
         {/* ====== Company Logo ====== */}
