@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { HeroSection, FeatureSection, TechStackSection } from "@/components/sections";
+import { HeroSection, FeatureSection, TechStackSection, TestimonialsSection, CTASection } from "@/components/sections";
 import { Footer } from "@/components/layout/footer";
 export default function Home() {
   return (
@@ -45,6 +45,14 @@ export default function Home() {
         <div className="my-20 h-px w-32 bg-gradient-to-r from-transparent via-zinc-400 to-transparent opacity-50" />
 
         <TechStackSection />
+        {/* ====== Visual Divider ====== */}
+        <div className="my-20 h-px w-32 bg-gradient-to-r from-transparent via-zinc-400 to-transparent opacity-50" />
+
+        <TestimonialsSection />
+        {/* ====== Visual Divider ====== */}
+        <div className="my-20 h-px w-32 bg-gradient-to-r from-transparent via-zinc-400 to-transparent opacity-50" />
+
+        <CTASection />
 
         {/* ====== Footer ====== */}
         <Footer />

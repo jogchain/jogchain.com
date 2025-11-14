@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "quote": "Jogchain helped our team iterate faster and ship more confidently. The onboarding was painless.",
+    "name": "Alex Morgan",
+    "role": "Product Lead"
+  },
+  {
+    "id": 2,
+    "quote": "Reliable, fast, and well designed — we've seen real improvements in developer productivity.",
+    "name": "Priya Kaur",
+    "role": "Engineering Manager"
+  },
+  {
+    "id": 3,
+    "quote": "Excellent support and clear documentation. Integrating Jogchain was straightforward.",
+    "name": "Diego Ramirez",
+    "role": "CTO"
+  }
+]
